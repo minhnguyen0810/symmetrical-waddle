@@ -1,0 +1,37 @@
+.wrapper{
+    background: linear-gradient(to right, #eecda3, #3d8cb9);
+    height: 100vh;
+}
+.row.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 30px; 
+    display: flex;
+    justify-content:center;
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #00BF96; 
+    display: inline-block; 
+    margin: 0 10px;
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    background: #00816A; 
+    display: inline-block; 
+} 
+.smalltext{ 
+    padding-top: 5px; 
+    font-size: 30px; 
+} 
